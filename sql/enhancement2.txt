@@ -1,0 +1,40 @@
+********************************************************************************************
+#1
+********************************************************************************************
+
+INSERT INTO clients (clientFirstname, clientLastname, clientEmail, clientPassword, comments)
+VALUES ('Tony', 'Stark', 'tony@starkent.com', 'Iam1ronM@n', "I am the real Ironman");
+
+********************************************************************************************
+#2
+********************************************************************************************
+
+UPDATE clients
+SET clientLevel = 3
+WHERE clientLevel = 1;
+
+********************************************************************************************
+#3
+********************************************************************************************
+
+UPDATE inventory
+SET invName = replace(invName, 'Nylon Rope', 'Climbing Rope')
+, invDescription = replace(invDescription, 'nylon rope', 'climbing rope')
+WHERE invName LIKE '%Nylon_Rope%'
+OR invDescription LIKE '_%nylon_rope%_';
+
+********************************************************************************************
+#4
+********************************************************************************************
+
+SELECT inventory.invName, categories.categoryName
+FROM categories
+INNER JOIN inventory ON categories.categoryId = inventory.categoryId
+WHERE categoryName = "Misc"
+
+********************************************************************************************
+#5
+********************************************************************************************
+
+DELETE FROM inventory 
+WHERE inventory.invId = 7

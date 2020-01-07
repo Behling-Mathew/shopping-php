@@ -1,0 +1,201 @@
+@media (min-width: 1040px) {
+
+  header {
+    max-width: 1040px;
+    grid-template-columns: 900px 130px;
+    padding: 10px;
+  }
+
+  header img.account-icon {
+    position: relative;
+    left: 87px;
+
+    top: 45px;
+  }
+  p.my-account {
+    top: 5px;
+  }
+
+  header span.welcome-cookie {
+    position: relative;
+    left: -120px;
+    top: 69px;
+
+  }
+
+  nav button {display: none;}
+
+  nav ul.main-nav li {
+    display: inline-block;
+
+  }
+  nav ul.hide {display: block;}
+  .main-nav {
+    margin-top: 0;
+  }
+
+  nav ul li a {
+    font-size: 1.6em;
+    right: 0px;
+
+  }
+
+
+
+  body {
+    min-width: 1040px;
+  }
+
+  footer {
+    min-width: 1040px;
+  }
+
+
+  .rocket-feature {
+    width: 1040px;
+  }
+
+  .want-container {
+    width: 330px;
+    bottom: 440px;
+    left: 700px;
+    background-color: rgba(255, 255, 255, 0);
+
+  }
+  .want-container p {
+    font-size: 1.5em;
+
+  }
+  .want-container h2 {
+    font-size: 2em;
+
+  }
+
+  .want-button {
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  .rocket-reviews {
+    position: relative;
+    left: 500px;
+    top: 177px;
+  }
+  div.rocket-container {
+    margin-bottom: -350px;
+  }
+  div.recipies {
+    margin-left: 10px;
+  }
+
+  label input {
+    width: 50%;
+
+  }
+  input.submit-button {
+    margin-left: 10%;
+    margin-right: auto;
+  }
+
+  p.register-button {
+    width: 50%
+  }
+  h2.login-h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+  fieldset {
+    width: 50%;
+    padding: 1rem;
+
+  }
+  .form-note {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  main.default-main p {
+
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  main.default-main li {
+    text-align: center;
+    width: 15%;
+    display: inline-block;
+    margin: 10px;
+
+  }
+  main.default-main li a {
+    font-size: 1rem;
+  }
+
+  a.logout {
+    position: relative;
+    top: 10px;
+    right: -35px;
+    padding: 15px;
+  }
+
+  #prod-display li{
+    width: 25%;
+  }
+
+  /* Product details styling */
+  .detail-image img {
+
+    max-height: 350px;
+  }
+  .detail-info {
+    text-align: left;
+    padding: 20px;
+    padding-left: 50px;
+    background-color: #de2226;
+    margin: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+
+  }
+
+  main div.info-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  main div.info-cont div.detail-info {
+    position: relative;
+    bottom: 40px;
+
+
+  }
+
+  .welcome.category-heading {
+    padding-bottom: 40px;
+  }
+  
+  #image-display img {
+  
+  max-width: none;
+}
+form fieldset {
+  max-width: 700px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*Reviews Styling*/
+div.product-reviews p {
+  text-align: center;
+}
+div.product-reviews {
+  width: 70%;
+}
+p#center-login {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
